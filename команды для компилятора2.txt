@@ -1,6 +1,10 @@
 последний вариант
 
-javac -sourcepath ./org -d ./org/out ./org/test/Main.java
+javac -sourcepath ./src -d ./out ./src/ru/gb/jcore/sample/Main.java
+
+java -classpath ./out ru.gb.jcore.sample.Main
+
+
 
 
 --------------------------------------------------------------
@@ -21,8 +25,6 @@ java -classpath ./out les_1.ex001.Main
 javac -sourcepath ./src/main/java/org/test -d ./bin *.java
 
 -------------------------------------
-варианты
-
 javac -sourcepath ./src -d C:\DEV\JavaCore2\out *.java
 ------------------------------------------
 
