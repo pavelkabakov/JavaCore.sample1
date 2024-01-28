@@ -1,0 +1,39 @@
+последний вариант
+
+javac -sourcepath ./org -d ./org/out ./org/test/Main.java
+
+
+--------------------------------------------------------------
+
+c:\DEV\JavaCore2\sem1\src\main\java\org\test>javac -d ../out *.java
+
+c:\DEV\JavaCore2\sem1\src\main\java\org\test>java -classpath ../out org.test.Main
+
+c:\DEV\JavaCore2\sem1\src\main\java\org\test>javadoc -d ../doc -sourcepath ../ -cp ../out -subpackages ../test
+
+
+-----------------------------------------------------------------
+
+javac -sourcepath ./ -d ./out *.java
+
+java -classpath ./out les_1.ex001.Main
+
+javac -sourcepath ./src/main/java/org/test -d ./bin *.java
+
+-------------------------------------
+варианты
+
+javac -sourcepath ./src -d C:\DEV\JavaCore2\out *.java
+------------------------------------------
+
+
+javac -d ./production *.java
+
+
+вариант с компиляцией по папкам  - исходники и выход раздельно
+
+javac -sourcepath ./src -d ./out .\src\Main.java
+
+javadoc -d ./doc -sourcepath ./src -cp ./out -subpackages ./src/Main
+
+-d ./doc -sourcepath ./src -cp ./out -subpackages ./src/Main
